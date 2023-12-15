@@ -21,13 +21,10 @@ git config --global credential.helper store
 <details>
 
 <summary>Gerando senha SSH</summary>
+
 ```
 ssh-keygen -t ed25519 -C "email"
-```
-```
 eval "$(ssh-agent -s)"
-```
-```
 ssh-add ~/.ssh/id_ed25519
 ```
 
@@ -145,6 +142,7 @@ git branch -v
 <details>
 
 <summary>Comandos gerais importantes</summary>
+
 _Clonar repositório remoto no local:_
 ```
 git clone URLSSH nomepasta
