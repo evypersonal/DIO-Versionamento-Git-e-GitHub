@@ -23,7 +23,11 @@ git config --global credential.helper store
 <summary>Gerando senha SSH</summary>
 ```
 ssh-keygen -t ed25519 -C "email"
+```
+```
 eval "$(ssh-agent -s)"
+```
+```
 ssh-add ~/.ssh/id_ed25519
 ```
 
